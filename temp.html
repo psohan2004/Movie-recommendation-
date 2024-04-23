@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+<style>
+  body {
+     background-color: #020403; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    color: white;
+    z-index: 1; /* Ensure header is above the text */
+  }
+  .header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 150px; /* Initial left margin */
+    margin-right: 30px; /* Additional right margin to achieve a total of 30px space */
+}
+
+  .header a:hover {
+    text-decoration: underline;
+  }
+  .content {
+    margin-top: 60px; /* Adjust margin to make space for the fixed header */
+    padding: 20px;
+    color: white;
+  }
+  .centered-text {
+    position: absolute;
+    font-size: 51px;
+    top: 800%;
+    right: 430px;
+    transform: translateY(-50%);
+    text-align: right;
+    font-family: "Copperplate Gothic", sans-serif;
+    color: white;
+    z-index: 3; /* Ensure text is above the circles */
+  }
+  
+  .login-box {
+    background-color: #191B1B;
+    height: 550px;
+    width: 450px;
+    padding: 20px;
+    position: absolute;
+    top: 60px;
+    right: 150px;
+    border-radius: 7%;
+    text-align: right;
+}
+.email
+{
+  position: absolute;
+  top: 23%;
+  right: 60px;
+}
+  .password {
+    position: absolute;
+    top: 35%;
+    right: 60px;
+   
+  }
+  .login-box form input[type="text"],
+.login-box form input[type="password"] {
+    margin-right: -25px;
+    height: 50px;
+    width: 380px;
+    border: 1px solid #000000;
+    border-radius: 35px 35px 35px 35px;
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+    padding-left: 40px;
+    outline: none;
+}
+
+.login-box form button {
+    margin-right: 10px;
+    width: 150px;
+    height: 60px;
+    border-radius:  35px 35px 35px 35px;
+    position: absolute;
+    top:48%;
+    right: 13%;
+    background-color: #200D5B;
+    border: 1px    ;
+    color: white;
+    font-size: 20px;
+}
+.welcome{
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  right: 42%;
+  top: 7%;
+}
+.forget{
+  position: absolute;
+  right: 56%;
+  top: 51.5%;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.signup{
+  position: absolute;
+  top:65%;
+  right: 25%;
+  width: 250px;
+  height: 50px;
+  background-color: #606160;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px;
+  color: white;
+  font-size: 20px;
+}
+.mail{
+  position: absolute;
+  top:78%;
+  right: 25%;
+  width: 250px;
+  height: 50px;
+  background-color: #606160;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px;
+  color: white;
+  font-size: 20px;
+}
+.logo {
+    width: 30px;
+    position: absolute;
+    top: 79.5%;
+    right: 60%;
+    z-index: 999;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="content">
+               
+    </pre>
+  </div>
+</div>
+<div class="login-box">
+  <div class="welcome">Welcome Back!</div>
+  <form>
+    <input class="email" type="text" name="email" placeholder="     Email Address">
+    <input class="password" type="password" name="password" placeholder="       Password">
+    <button type="submit" class="loginbtn">Login</button>
+    <a href="#" class="forget">Forget Password ?</a>
+  </form>
+  <a  class="signup" href="/temp1.html">Sign Up</a>
+  <img class="logo" src="/logo-removebg-preview.png" alt="">
+  <button class="mail">Gmail</button>
+</div>
+
+
+</body>
+</html>
